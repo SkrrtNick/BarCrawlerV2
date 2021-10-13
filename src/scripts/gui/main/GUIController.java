@@ -45,6 +45,8 @@ public class GUIController extends AbstractGUIController {
     @FXML
     private Text txtTitle;
 
+    @FXML
+    private CheckBox checkFood;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
