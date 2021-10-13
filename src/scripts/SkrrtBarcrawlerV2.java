@@ -20,7 +20,7 @@ import java.awt.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-@ScriptManifest(name = "SkrrtMonitor", authors = {"SkrrtNick"}, category = "Tools")
+@ScriptManifest(name = "SkrrtBarcrawler V2", authors = {"SkrrtNick"}, category = "Tools")
 public class SkrrtBarcrawlerV2 implements TribotScript, PaintInfo {
     Logger logger = new Logger().setHeader("SkrrtScripts");
     DaxWalkerAdapter daxWalkerAdapter = new DaxWalkerAdapter("sub_JmRkbIB2XRYqmf", "7227dd88-8182-4cd9-a3d9-00b8fa6ff56e");
@@ -68,7 +68,7 @@ public class SkrrtBarcrawlerV2 implements TribotScript, PaintInfo {
         }
         if (getRunningProfile().getMethodMonitors() == null) {
             try {
-                fxml = new URL("https://raw.githubusercontent.com/SkrrtNick/SkrrtMonitor/master/src/scripts/gui/main/gui.fxml");
+                fxml = new URL("https://raw.githubusercontent.com/SkrrtNick/BarCrawlerV2/master/src/scripts/gui/main/gui.fxml");
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }
