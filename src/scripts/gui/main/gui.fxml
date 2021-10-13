@@ -36,5 +36,6 @@
       <CheckBox fx:id="checkShuffle" layoutX="14.0" layoutY="169.0" mnemonicParsing="false" text="Shuffle on every run" />
       <CheckBox fx:id="checkStaminas" layoutX="14.0" layoutY="205.0" mnemonicParsing="false" text="Use Staminas" />
       <CheckBox fx:id="checkFood" layoutX="14.0" layoutY="240.0" mnemonicParsing="false" text="Bring food" />
+      <Button fx:id="btnShuffle" layoutX="146.0" layoutY="256.0" mnemonicParsing="false" onAction="#btnShufflePressed" text="Shuffle" />
    </children>
 </AnchorPane>
