@@ -6,7 +6,7 @@
     -fx-control-inner-background-alt: -fx-control-inner-background ;
 }
 
-.label{
+.text {
     -fx-text-fill: lightgray;
 }
 
@@ -14,12 +14,12 @@
     -fx-prompt-text-fill: gray;
 }
 
-.titulo{
+.titulo {
     -fx-font-weight: bold;
     -fx-font-size: 18px;
 }
 
-.button{
+.button {
     -fx-focus-traversable: false;
 }
 
