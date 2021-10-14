@@ -6,7 +6,7 @@
     -fx-control-inner-background-alt: -fx-control-inner-background ;
 }
 
-.text {
+Text {
     -fx-text-fill: lightgray;
 }
 
